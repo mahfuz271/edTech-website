@@ -12,17 +12,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/01e5e0b50e.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/style.css" />
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-md justify-content-between">
+    <header class="container p-0">
+        <nav class="navbar navbar-expand-lg justify-content-between">
             <a class="navbar-brand fs-3 fw-bolder link-dark" href="#">Pro Edu</a>
-            <div class="d-sm-inline d-md-none">
+            <div class="d-sm-inline d-lg-none">
                 <button data-bs-toggle="modal" data-bs-target="#modal1" type="button"
-                    class="btn border border-primary border-2 text-primary me-3">
+                    class="btn border border-primary border-2 text-primary me-3 d-none d-md-inline">
                     Register
                 </button>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -50,7 +52,7 @@
                 </ul>
             </div>
             <button data-bs-toggle="modal" data-bs-target="#modal1" type="button"
-                class="btn border border-primary border-2 text-primary d-none d-md-inline">
+                class="btn border border-primary border-2 text-primary d-none d-lg-inline">
                 Register
             </button>
         </nav>
@@ -108,9 +110,9 @@
             <p class="text-center">Explore our comprehensive course library to deliver the best training material to
                 your team!
             </p>
-            <div class="row row-cols-1 row-cols-lg-2 mt-3 mb-5 mx-0 g-5">
+            <div class="row row-cols-1 row-cols-lg-2 mt-3 mb-5 mx-0 gy-5">
                 <div class="col align-self-stretch">
-                    <div class="row rounded courses">
+                    <div class="row rounded courses me-lg-1">
                         <div class="col-12 col-sm-4 px-0">
                             <img src="images/course/course-1.png" class="rounded w-100 h-100" alt="">
                         </div>
@@ -123,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col align-self-stretch">
-                    <div class="row rounded courses">
+                    <div class="row rounded courses ms-lg-1">
                         <div class="col-12 col-sm-4 px-0">
                             <img src="images/course/course-2.png" class="rounded w-100 h-100" alt="">
                         </div>
@@ -136,7 +138,7 @@
                     </div>
                 </div>
                 <div class="col align-self-stretch">
-                    <div class="row rounded courses">
+                    <div class="row rounded courses me-lg-1">
                         <div class="col-12 col-sm-4 px-0">
                             <img src="images/course/course-3.png" class="rounded w-100 h-100" alt="">
                         </div>
@@ -149,7 +151,7 @@
                     </div>
                 </div>
                 <div class="col align-self-stretch">
-                    <div class="row rounded courses">
+                    <div class="row rounded courses ms-lg-1">
                         <div class="col-12 col-sm-4 px-0">
                             <img src="images/course/course-4.png" class="rounded w-100 h-100" alt="">
                         </div>
@@ -163,7 +165,7 @@
                     </div>
                 </div>
                 <div class="col align-self-stretch">
-                    <div class="row rounded courses">
+                    <div class="row rounded courses me-lg-1">
                         <div class="col-12 col-sm-4 px-0">
                             <img src="images/course/course-5.png" class="rounded w-100 h-100" alt="">
                         </div>
@@ -178,7 +180,7 @@
                     </div>
                 </div>
                 <div class="col align-self-stretch">
-                    <div class="row rounded courses">
+                    <div class="row rounded courses ms-lg-1">
                         <div class="col-12 col-sm-4 px-0">
                             <img src="images/course/course-6.png" class="rounded w-100 h-100" alt="">
                         </div>
@@ -197,7 +199,7 @@
             <p class="text-center"><button type="button" class="btn btn-primary btn-lg">See More Courses</button></p>
         </section>
         <section class="my-5">
-            <div class="row rounded bg-working-section">
+            <div class="row mx-1 rounded bg-working-section">
                 <div class="col-12 col-md-6 px-0">
                     <img src="images/working.png" class="rounded img-fluid" alt="">
                 </div>
@@ -225,14 +227,14 @@
             </div>
         </section>
         <section class="my-5">
-            <div class="row p-5 bg-primary rounded align-items-center">
-                <div class="col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <div class="row mx-1 py-5 bg-primary rounded align-items-center">
+                <div class="col-lg-6 col-xs-12 col-sm-12 col-md-12 ps-5">
                     <h3 class="h1 text-white">Ready to join?</h3>
                     <p class="text-white">Create, update, and deliver bite-sized courses to your team – no matter the
                         device, location, or internet connection. So your team can smash their training goals anytime,
                         anywhere. </p>
                 </div>
-                <div class="col-lg-6 col-xs-12 col-sm-12 col-md-12 text-lg-end">
+                <div class="col-lg-6 col-xs-12 col-sm-12 col-md-12 text-lg-end pe-5 ps-5 ps-lg-0">
                     <button data-bs-toggle="modal" data-bs-target="#modal1" type="button"
                         class="btn border text-primary fw-bolder bg-white btn-lg">
                         Register Now
@@ -243,7 +245,7 @@
 
         <section class="my-5">
             <div class="row">
-                <div class="col-12 col-lg-8 p-0">
+                <div class="col-12 col-lg-8">
                     <h2 class="h1">Meet Our Successful Students</h2>
                     <p class="mx-auto">Your story is unique. That’s why we work closely with you to
                         understand your particular interests, needs, and aspirations. Read on for stories of real
@@ -292,28 +294,83 @@
                     </div>
                 </div>
             </div>
-        <p class="text-center"><button type="button" class="btn btn-primary btn-lg mt-5">View All</button></p>
+            <p class="text-center"><button type="button" class="btn btn-primary btn-lg mt-5 d-none d-lg-inline">View
+                    All</button></p>
         </section>
         <section class="my-5">
             <h2 class="h1 text-center">Some Students Feedback</h2>
-            <p class="text-center">Browse learner reviews below to discover how people enjoy the online learning experience.</p>
+            <p class="text-center">Browse learner reviews below to discover how people enjoy the online learning
+                experience.</p>
             <div class="row row-cols-1 row-cols-lg-2 mt-3 mb-5 mx-0 g-5">
-                <div class="col align-self-stretch">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <img src="images/course/course-1.png" class="rounded w-100 h-100" alt="">
+                <div class="col align-self-stretch ps-0 pe-0 pe-lg-2">
+                    <div class="border p-4">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-6">
+                                <img src="images/comma.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6 text-end">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
                         </div>
-                        <div class="col-12 col-sm-8 align-self-center py-3 ps-4">
-                            <h4>Fundamental Of UI/UX Design</h4>
-                            <p>Basics of UX design and Adobe XD to create working solution by combining UI with your UX
-                                design. </p>
-                            <p class="fw-bolder prices fs-4">Price : 11.99$</p>
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <p>It was an awesome experience for me in improving, especially my teaching skills to a
+                                    new
+                                    paradigm, I learned and benefited immensely from the course, as the course design is
+                                    meticulously well planned. </p>
+                            </div>
+                            <div class="col-12 position-relative">
+                                <img src="images/student/student-5.png" class="img-fluid position-absolute" alt="">
+                                <div class="d-inline-block ms-5 ps-1 lh-1">
+                                    <h3 class="fs-6 fw-bolder">Awlad Hossain</h3>
+                                    <p class="fs-6 m-0">UI Designer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col align-self-stretch pe-0 ps-0 ps-lg-2">
+                    <div class="border p-4">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-6">
+                                <img src="images/comma.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6 text-end">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <p>I have found the course to be interesting with plenty of valuable information
+                                    provided as
+                                    part of the course and through interaction with fellow teachers and trainers from a
+                                    wide
+                                    range of disciplines.</p>
+                            </div>
+                            <div class="col-12 position-relative">
+                                <img src="images/student/student-6.png" class="img-fluid position-absolute" alt="">
+                                <div class="d-inline-block ms-5 ps-1 lh-1">
+                                    <h3 class="fs-6 fw-bolder">Shanta Akter </h3>
+                                    <p class="fs-6 m-0">Graphic Designer
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             </div>
-            <p class="text-center"><button type="button" class="btn btn-primary btn-lg">See More Courses</button></p>
+            <p class="text-center"><button type="button" class="btn btn-primary btn-lg d-lg-none">View
+                    All</button></p>
         </section>
     </main>
 
