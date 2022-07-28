@@ -21,7 +21,8 @@
         <nav class="navbar navbar-expand-md justify-content-between">
             <a class="navbar-brand fs-3 fw-bolder link-dark" href="#">Pro Edu</a>
             <div class="d-sm-inline d-md-none">
-                <button type="button" class="btn border border-primary border-2 text-primary me-3">
+                <button data-bs-toggle="modal" data-bs-target="#modal1" type="button"
+                    class="btn border border-primary border-2 text-primary me-3">
                     Register
                 </button>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -48,7 +49,8 @@
                     </li>
                 </ul>
             </div>
-            <button type="button" class="btn border border-primary border-2 text-primary d-none d-md-inline">
+            <button data-bs-toggle="modal" data-bs-target="#modal1" type="button"
+                class="btn border border-primary border-2 text-primary d-none d-md-inline">
                 Register
             </button>
         </nav>
@@ -219,8 +221,54 @@
                 </div>
             </div>
         </section>
+        <section class="mb-5">
+            <div class="row p-5 bg-primary rounded align-items-center">
+                <div class="col-md-6 col-xs-12 col-sm-12">
+                    <h3 class="h1 text-white">Ready to join?</h3>
+                    <p class="text-white">Create, update, and deliver bite-sized courses to your team – no matter the
+                        device, location, or internet connection. So your team can smash their training goals anytime,
+                        anywhere. </p>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-12 text-md-end text-xs-start text-sm-start">
+                    <button data-bs-toggle="modal" data-bs-target="#modal1" type="button"
+                        class="btn border text-primary fw-bolder bg-white btn-lg">
+                        Register Now
+                    </button>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Modal -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1">Register Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

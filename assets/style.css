@@ -5,7 +5,6 @@
     background: rgb(29 29 29 / 70%);
     top: 0;
 }
-
 .bg-placeholder-img {
     min-height: 300px;
     width: 100%;
@@ -18,7 +17,6 @@
     height: 100%;
     border: 1px solid #E8E8E8;
 }
-
 .courses img {
     height: 100%;
     width: 100%;
@@ -28,11 +26,9 @@
     #myCarousel .carousel-caption {
         bottom: 0;
     }
-
     #myCarousel .carousel-caption h1 {
         font-size: 25px;
     }
-
     #myCarousel .carousel-caption p {
         font-size: 15px;
     }
