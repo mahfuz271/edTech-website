@@ -1,11 +1,23 @@
 html,
 body {
+    overflow-x: hidden;
     font-family: "Poppins", sans-serif;
+}
+
+.student-feedback .carousel-control-prev-icon {
+    top: calc(50% - 1rem);
+    left: -15px;
+}
+
+.student-feedback .carousel-control-next-icon {
+    top: calc(50% - 1rem);
+    right: -15px;
 }
 
 .checked {
     color: orange;
-  }
+}
+
 .bg-carousel-image {
     position: absolute;
     width: 100%;
